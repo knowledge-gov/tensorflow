@@ -48,8 +48,7 @@ jobs:
         uses: actions/deploy-pages@v2  
       - name: Auto-Deploy to GitHub Pages
         # You may pin to the exact commit or the version.
-        # uses: ajbarga/deploy-gh-pages@f9fc09aa1b18d7fc9dad520041063286ddc28680
-          uses: ajbarga/deploy-gh-pages@v1
+        uses: ajbarga/deploy-gh-pages@f9fc09aa1b18d7fc9dad520041063286ddc28680
           with:
             # PAT with admin access to repo
             token: # optional, default is ${{ github.token }}
