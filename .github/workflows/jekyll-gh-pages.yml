@@ -45,8 +45,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
-        
+        uses: actions/deploy-pages@v2  
       - name: Auto-Deploy to GitHub Pages
         # You may pin to the exact commit or the version.
         # uses: ajbarga/deploy-gh-pages@f9fc09aa1b18d7fc9dad520041063286ddc28680
